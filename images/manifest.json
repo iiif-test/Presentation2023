@@ -1,0 +1,66 @@
+{
+  "id" : "https://iiif-test.github.io/Presentation2023/images/manifest.json",
+  "label" : {
+    "en" : [ "All images loaded in iiif-test/Presentation2023 project" ]
+  },
+  "type" : "Manifest",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "width" : 800,
+    "id" : "https://iiif-test.github.io/Presentation2023/images/vdc_100121318680.0x000001/canvas/",
+    "label" : {
+      "none" : [ "vdc_100121318680.0x000001" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://iiif-test.github.io/Presentation2023/images/vdc_100121318680.0x000001/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://iiif-test.github.io/Presentation2023/images/vdc_100121318680.0x000001/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 25,
+              "height" : 51
+            }, {
+              "width" : 50,
+              "height" : 102
+            }, {
+              "width" : 100,
+              "height" : 203
+            }, {
+              "width" : 200,
+              "height" : 405
+            }, {
+              "width" : 400,
+              "height" : 810
+            }, {
+              "width" : 800,
+              "height" : 1619
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 800,
+            "@id" : "https://iiif-test.github.io/Presentation2023/images/vdc_100121318680.0x000001",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 1619
+          } ],
+          "format" : "image/jpeg",
+          "width" : 800,
+          "id" : "https://iiif-test.github.io/Presentation2023/images/vdc_100121318680.0x000001/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 1619
+        },
+        "target" : "https://iiif-test.github.io/Presentation2023/images/vdc_100121318680.0x000001/canvas/"
+      } ]
+    } ],
+    "height" : 1619
+  } ]
+}
