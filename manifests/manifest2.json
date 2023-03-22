@@ -2,7 +2,7 @@
   "@context" : "http://iiif.io/api/presentation/2/context.json",
   "@id" : "https://iiif-test.github.io/Presentation2023/manifests/manifest2.json",
   "@type" : "sc:Manifest",
-  "label" : "This is Glen's fantastic manifest",
+  "label" : "This is Glen's fantastic manifest - 2",
   "metadata" : [ ],
   "description" : [ {
     "@value" : "This is a collection of photographs taken by Glen",
